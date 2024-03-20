@@ -1,0 +1,17 @@
+{
+    "tasks": {
+        "dev": "deno run --watch main.ts"
+    },
+    "importMap": "./imports.json",
+    "fmt": {
+        "files": {
+            "exclude": ["node_modules"]
+        },
+        "options": {
+            "useTabs": false,
+            "singleQuote": false,
+            "semiColons": false,
+            "indentWidth": 4
+        }
+    }
+}
