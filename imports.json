@@ -1,6 +1,6 @@
 {
     "imports": {
-        "haru/load_config": "https://raw.githubusercontent.com/Comamoca/haru/0f93eea7dacb8bdcf5cebd8edf5fbe3292ad10ce/utils/load_config.ts",
+        "haru/load_config": "https://raw.githubusercontent.com/Comamoca/haru/917d9f7e29d2fab8de5ecfa76985af5916f3da44/utils/load_config.ts",
         "unknownutil": "https://deno.land/x/unknownutil@v3.16.3/mod.ts",
         "log": "https://deno.land/std@0.218.2/log/mod.ts",
         "assert": "https://deno.land/std@0.205.0/assert/mod.ts",
