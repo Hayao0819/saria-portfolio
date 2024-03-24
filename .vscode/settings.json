@@ -14,5 +14,6 @@
     "[typescript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
-    "typescript.tsserver.experimental.enableProjectDiagnostics": false
+    "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+    "deno.importMap": "./imports.json"
 }

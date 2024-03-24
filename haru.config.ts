@@ -1,6 +1,5 @@
 import { Config } from "haru/load_config"
 
-
 const config: Config = {
     output: "dist",
     input: "src",

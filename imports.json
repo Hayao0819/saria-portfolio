@@ -1,14 +1,5 @@
 {
     "imports": {
-        "haru/load_config": "https://raw.githubusercontent.com/Comamoca/haru/917d9f7e29d2fab8de5ecfa76985af5916f3da44/utils/load_config.ts",
-        "unknownutil": "https://deno.land/x/unknownutil@v3.16.3/mod.ts",
-        "log": "https://deno.land/std@0.218.2/log/mod.ts",
-        "assert": "https://deno.land/std@0.205.0/assert/mod.ts",
-        "path": "https://deno.land/std@0.205.0/path/mod.ts",
-        "fs": "https://deno.land/std@0.205.0/fs/mod.ts",
-        "fs/": "https://deno.land/std@0.205.0/fs/",
-        "postcss": "https://deno.land/x/postcss@8.4.16/mod.js",
-        "tailwind": "npm:tailwindcss@3.3.5",
-        "fmt": "https://deno.land/std@0.204.0/fmt/colors.ts"
+        "haru/load_config": "https://raw.githubusercontent.com/Comamoca/haru/917d9f7e29d2fab8de5ecfa76985af5916f3da44/utils/load_config.ts"
     }
 }
