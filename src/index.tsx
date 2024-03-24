@@ -1,3 +1,3 @@
 export default function Hello() {
-    return <>{"hello world"}</>
+    return <>hello world</>
 }
