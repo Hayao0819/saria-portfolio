@@ -1,12 +1,19 @@
 import { Config } from "haru/load_config"
 
-const config: Config = {
+export default {
     output: "dist",
     input: "src",
-    embed_to_html: () => Deno.readTextFileSync("src/index.html"),
-    tailwind: {},
-    title: "Haru App",
-    pretty: true,
-}
-
-export default config
+    embed_to_html: (html) => {
+        return `<!DOCTYPE html>
+                <html lang="ja">
+                    <head>
+                    </head>
+            
+                    <body>
+                    <div class="flex justify-center">
+	                    ${html}
+                    </div>
+                </body>
+                </html>`
+    },
+} as Config
